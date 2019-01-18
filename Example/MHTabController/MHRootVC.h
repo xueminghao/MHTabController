@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface MHViewController : UIViewController
+@interface MHRootVC : UIViewController
 
 @end

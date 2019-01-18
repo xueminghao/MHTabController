@@ -15,7 +15,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MHViewController.m */; };
+		6003F5A7195388D20070C39A /* MHRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MHRootVC.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E5453D6D21F1C6A80079B9E3 /* MHContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E5453D6C21F1C6A80079B9E3 /* MHContentVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		051E7C3C6B9D5C89AD69B08B /* Pods_MHTabController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHTabController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0649B05C893F8EF1FC31E3A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0649B05C893F8EF1FC31E3A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		26F683E8450B0303C92682B8 /* Pods-MHTabController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHTabController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHTabController_Example/Pods-MHTabController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		28BC199D9DB74022AB1D951B /* Pods_MHTabController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHTabController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MHTabController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHTabController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +52,8 @@
 		6003F59B195388D20070C39A /* MHTabController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHTabController-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* MHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* MHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* MHRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHRootVC.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* MHRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHRootVC.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MHTabController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHTabController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,8 +66,10 @@
 		852613FC21631296EEA6B4A0 /* Pods-MHTabController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHTabController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHTabController_Example/Pods-MHTabController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A0279DC709E89304263A2D3 /* Pods-MHTabController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHTabController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHTabController_Tests/Pods-MHTabController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A183FF1E897AB2EF0382BCCC /* MHTabController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHTabController.podspec; path = ../MHTabController.podspec; sourceTree = "<group>"; };
-		B5BF2AF606CC96BD811C1C9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A183FF1E897AB2EF0382BCCC /* MHTabController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHTabController.podspec; path = ../MHTabController.podspec; sourceTree = "<group>"; };
+		B5BF2AF606CC96BD811C1C9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5453D6B21F1C6A80079B9E3 /* MHContentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHContentVC.h; sourceTree = "<group>"; };
+		E5453D6C21F1C6A80079B9E3 /* MHContentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHContentVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +149,10 @@
 				6003F59C195388D20070C39A /* MHAppDelegate.h */,
 				6003F59D195388D20070C39A /* MHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* MHViewController.h */,
-				6003F5A6195388D20070C39A /* MHViewController.m */,
+				6003F5A5195388D20070C39A /* MHRootVC.h */,
+				6003F5A6195388D20070C39A /* MHRootVC.m */,
+				E5453D6B21F1C6A80079B9E3 /* MHContentVC.h */,
+				E5453D6C21F1C6A80079B9E3 /* MHContentVC.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -304,12 +309,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MHTabController_Example/Pods-MHTabController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MHTabController/MHTabController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MHTabController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -368,7 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MHAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MHViewController.m in Sources */,
+				E5453D6D21F1C6A80079B9E3 /* MHContentVC.m in Sources */,
+				6003F5A7195388D20070C39A /* MHRootVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHTabController/MHTabController-Prefix.pch";
 				INFOPLIST_FILE = "MHTabController/MHTabController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +524,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MHTabController/MHTabController-Prefix.pch";
 				INFOPLIST_FILE = "MHTabController/MHTabController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -17,7 +17,7 @@ MHTabController is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MHTabController'
+pod 'MHTabController', :git => 'git@github.com:Minghao2017/MHTabController.git'
 ```
 
 ## Author

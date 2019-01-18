@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - MHTabController (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - MHTabController (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  MHTabController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MHTabController: 6f75ab90fcef7800a4a152d398782815b38e376f
+
+PODFILE CHECKSUM: dbecbfe216bb329f94806ee57f2b2ccd4e17ca56
+
+COCOAPODS: 1.5.3

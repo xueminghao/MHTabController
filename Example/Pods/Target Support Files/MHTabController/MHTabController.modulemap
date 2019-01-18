@@ -1,0 +1,6 @@
+framework module MHTabController {
+  umbrella header "MHTabController-umbrella.h"
+
+  export *
+  module * { export * }
+}
