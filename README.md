@@ -5,6 +5,28 @@
 [![License](https://img.shields.io/cocoapods/l/MHTabController.svg?style=flat)](https://cocoapods.org/pods/MHTabController)
 [![Platform](https://img.shields.io/cocoapods/p/MHTabController.svg?style=flat)](https://cocoapods.org/pods/MHTabController)
 
+## Screenshots
+
+<p align="center">
+<img alt="demo.png" width="200" src="screenshots/demo.png">
+<br/>
+demo
+</p>
+
+## Feature
+
+1. Switch sub-viewcontrollers by swipe gesture.
+2. Switch sub-viewcontrollers by button click.
+3. A bar show titles of sub-viewcontrolles.
+4. Badge support.
+```
+- (MHTabItemBadge *)badgeModelForItemAtIndex:(NSUInteger)index;
+```
+5. Set default page index.
+```
+- (NSUInteger)defaultTabIndex;
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
