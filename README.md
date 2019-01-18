@@ -49,3 +49,7 @@ pod 'MHTabController', :git => 'git@github.com:Minghao2017/MHTabController.git'
 ## License
 
 MHTabController is available under the MIT license. See the LICENSE file for more info.
+
+## Todos
+1. Remove dependency of Masonry
+2. Tab bar compatibility of large number of pages
